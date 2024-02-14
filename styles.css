@@ -24,13 +24,27 @@ body {
 
 #lastImage {
   min-width: 80vmin;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 1px rgb(255, 190, 222);
+  transition: box-shadow 0.3s ease;
+  transform: scale(0.8);
 }
 
 .imgWrapper {
   display: inline-block;
   overflow: hidden;
   border-radius: 5px;
-  width: 35vmin;
+  border-radius: 10px; /* Add border radius for a rounded effect */
+  box-shadow: 0 0 25px 5px rgba(255, 255, 255, 0.438); 
+}
+
+#lastText {
+  font-size: 36px;
+  width: 150vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 /* ----------------------------------------------
@@ -75,7 +89,8 @@ body {
   height: 56vmin;
   object-fit: cover;
   object-position: 100% 50%;
-  border-radius: 5px;
+  border-radius: 10px; /* Add border radius for a rounded effect */
+  box-shadow: 0 0 25px 1px rgba(255, 255, 255, 0.438); 
 }
 
 #image-track {

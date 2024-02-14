@@ -26,16 +26,14 @@ function changeText() {
 function deleteElement() {
   var element = document.getElementById("intro");
   if (element) {
-    element.remove(); // Removes the element from the DOM
-    // Alternatively, you can hide the element using:
-    // element.style.display = "none";
+    element.remove(); //
   }
 }
 
 function hideElement() {
   var element = document.getElementById("image-track");
   if (element) {
-    setTimeout(unhideElement, 1000); // set back to 20000 (20s)
+    setTimeout(unhideElement, 20000); // set back to 20000 (20s)
   }
 }
 
