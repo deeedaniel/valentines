@@ -35,7 +35,7 @@ function deleteElement() {
 function hideElement() {
   var element = document.getElementById("image-track");
   if (element) {
-    setTimeout(unhideElement, 20000);
+    setTimeout(unhideElement, 1000); // set back to 20000 (20s)
   }
 }
 
